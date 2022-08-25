@@ -1,0 +1,7 @@
+import re
+txt="godwin god vinson"
+a=re.search("^godwin.*vinson$",txt) #^is used to find the match of first character(type n front),$ is used to find the last character(type in last)
+if a:
+    print("found")
+else:
+    print("not found")
