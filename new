@@ -1,0 +1,7 @@
+import re
+txt="sahal"
+a=re.search("sahal+?",txt)
+if a:
+    print("found")
+else:
+    print("not found")
